@@ -1,8 +1,4 @@
-const lightTheme = "styles/light.css";
-const darkTheme = "styles/dark.css";
-const sunIcon = "assets/SunIcon.svg";
-const moonIcon = "assets/MoonIcon.svg";
-const themeIcon = document.getElementById("theme-icon");
+
 const res = document.getElementById("result");
 const toast = document.getElementById("toast");
 
@@ -90,4 +86,5 @@ function keyboardInputHandler(e) {
     //remove the last element in the string
     res.value = resultInput.substring(0, res.value.length - 1);
   }
+
 }
