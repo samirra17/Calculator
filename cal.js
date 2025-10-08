@@ -1,4 +1,4 @@
-
+const Style = "styles/style.css";
 const res = document.getElementById("result");
 const toast = document.getElementById("toast");
 
